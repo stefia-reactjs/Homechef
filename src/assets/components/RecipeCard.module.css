@@ -1,0 +1,28 @@
+.card {
+  width: 240px;
+  align-items: flex-start;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #394150;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.icon {
+  width: 240px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.name {
+  padding: 12px 0 4px;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.card:hover {
+  background-color: #626873;
+}

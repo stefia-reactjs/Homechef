@@ -1,0 +1,33 @@
+.wrapper {
+  position: relative;
+  margin-top: 15px;
+}
+.bgImg {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+.textImg {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: 30%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .textImg {
+    top: 8%;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    padding: 0 8px 8px 8px;
+  }
+
+  .textImg {
+    top: 6%;
+    width: 65%;
+  }
+}

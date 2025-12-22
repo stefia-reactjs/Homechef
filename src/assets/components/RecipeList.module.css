@@ -1,0 +1,20 @@
+.recipes {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .recipes {
+    justify-content: start;
+  }
+}
+@media (max-width: 1130px) {
+  .recipes {
+    gap: 50px;
+    justify-content: center;
+  }
+}
