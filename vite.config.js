@@ -1,14 +1,13 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-
-// https://vite.dev/config/
+import path from "node:path";
 export default defineConfig({
   plugins: [react()],
-  // base: "/Homechef/",
-  // build: { outDir: "docs", emptyOutDir: true },
-  // resolve: {
-  //   alias: {
-  //     "@": path.resolve(__dirname, "src"),
-  //   },
-  // },
+  base: "/Homechef/",
+  build: { outDir: "docs", emptyOutDir: true },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
+  },
 });
