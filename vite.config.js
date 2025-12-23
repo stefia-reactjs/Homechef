@@ -5,9 +5,4 @@ export default defineConfig({
   plugins: [react()],
   base: "/Homechef/",
   build: { outDir: "docs", emptyOutDir: true },
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "src"),
-    },
-  },
 });
